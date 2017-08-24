@@ -1,0 +1,134 @@
+body{
+  padding-top: 52px;
+  font-family: 'Noto Sans', sans-serif;
+}
+}
+.block{
+  padding-left: 25px;
+}
+.jumbotron{
+  height: 600px;
+  background-image: url(../img/header.jpeg);
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#intro{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  height: 500px;
+}
+
+#portfolio{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #a6dd8a;
+}
+#contactform{
+  padding-top: 50px;
+  padding-bottom: 30px;;
+}
+footer{
+  color: #ffffff;
+  background-color: #7be351;
+  padding: 35px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #7dc377;
+    border-color: #7dc377;
+    transition: background-color 1s;
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: #a7ff99;
+  border-color: #7dc377;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #7dc377;
+  border-color: #7dc377;
+  transition: background-color 1s;
+}
+.btn-danger:hover{
+  color: #fff;
+  background-color: #a7ff99;
+  border-color: #7dc377;
+}
+.btn {
+    border-radius: 0px;
+}
+.fa{
+  color: #7be351;
+  font-size: 28px;
+}
+.color{
+  color: #6ad666;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+.colorb{
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+.colorc{
+  color: #6ad666 !important;
+  font-family: 'Lobster', cursive;
+  font-size:60px;
+  margin-top: 175px;
+}
+.colord{
+  color: #6ad666 !important;
+  font-family: 'Lobster', cursive;
+  font-size: 50px !important;
+}
+
+.navbar-default {
+    background-color: #7be351;
+    border: none;
+    padding: 20px;
+}
+.navbar-default .navbar-brand:hover{
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+.navbar-default .navbar-brand{
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+.callto{
+  font-size: 15px;
+  font-weight: bolder;
+  color: #7be351 !important;
+  background-color: white !important;
+  border: white 2px solid;
+  transition: transform 1s;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>  .callto:hover{
+  transform: scale(1.2);
+}
+
+.navbar-nav>li>a {
+    margin-right: 15px;
+  }
+
+.link{
+    color: white !important;
+    font-size: 15px;
+    font-weight:bold;
+    transition: background-color 1s;
+    transition: color 1s
+  }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li> .link:hover{
+  background-color: white;
+  color: #7be351 !important;
+}
+.hit{
+  margin-top: 15px;
+}
