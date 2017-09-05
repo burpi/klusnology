@@ -5,7 +5,7 @@ $(function() {
   });
 
   $('.animation').scrolla({
-  mobile: false,
+  mobile: true,
   once: true,
 });
 
