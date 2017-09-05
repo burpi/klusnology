@@ -1,13 +1,12 @@
 body{
   padding-top: 52px;
   font-family: 'Noto Sans', sans-serif;
+  padding-right: 0px !important;
 }
-}
-.block{
-  padding-left: 25px;
-}
+
 .jumbotron{
-  height: 600px;
+  min-height: 600px;
+  max-width: 100%;
   background-image: url(../img/header.jpeg);
   background-position: 0% 25%;
   background-repeat: no-repeat;
@@ -148,4 +147,7 @@ a {
 a:hover {
     color: gray;
     text-decoration: none;
+}
+textarea {
+  max-width: 100%;
 }
